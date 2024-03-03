@@ -30,4 +30,8 @@ public class Main {
             System.out.print("Fallo al ingresar");
         }
     }
+
+    private static void operativa_cuenta(Object object) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
