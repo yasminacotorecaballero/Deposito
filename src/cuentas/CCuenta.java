@@ -5,6 +5,15 @@
 package cuentas;
 
 public class CCuenta {
+    
+    private String nombre;
+    private String cuenta;
+    private double saldo;
+    private double tipoInterés;
+
+    public CCuenta()
+    {
+    }
 
     /**
      * @return the nombre
@@ -62,15 +71,6 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
-
-    private String nombre;
-    private String cuenta;
-    private double saldo;
-    private double tipoInterés;
-
-    public CCuenta()
-    {
-    }
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {

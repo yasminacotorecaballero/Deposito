@@ -1,5 +1,5 @@
 /**
- * @author Yasmina Cotoré Caballero
+ * @author Yasmina Cotoré Caballero 
  */
 
 package cuentas;
