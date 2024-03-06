@@ -4,19 +4,22 @@
 
 package cuentas;
 
+ /**
+ * La clase Main
+ */ 
 public class Main {
 
     /**
-     *
-     * @param args
+     * Main
+     * @param args los argumentos
      */
     public static void main(String[] args) {
         operativa_cuenta(2500);
     }
 
-    /**
-     *
-     * @param cantidad
+    /** 
+     * Operativa_cuenta
+     * @param cantidad la cantidad
      */
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
