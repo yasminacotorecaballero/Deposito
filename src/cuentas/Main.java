@@ -7,7 +7,7 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta(null);
+        operativa_cuenta(2500);
     }
 
     public static void operativa_cuenta(float cantidad) {
@@ -31,7 +31,4 @@ public class Main {
         }
     }
 
-    private static void operativa_cuenta(Object object) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
